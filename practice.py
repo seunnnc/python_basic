@@ -5,9 +5,11 @@ print(3.14)
 print(1000000)
 print(5+3)
 print(10%2)
-print(9/3)
+print(9//3)
+print(10//4)
 print(2-2)
 print(2*3)
+print(2**3) #2^3
 print((3*12)+4)
 
 #문자
@@ -20,9 +22,21 @@ print(5 > 10)
 print(5 < 10)
 print(True)
 print(False)
-print(not False)
+print(3 + 4 == 7)
+
 print(not True)
 print(not(5>10))
+print(not False)
+print(1 != 3)
+
+print((3 > 0) and (5 < 7))
+print((3 > 0) & (5 < 7))
+
+print((3 > 0) or (5 > 7))
+print((3 > 0) | (5 > 7))
+
+print(5 > 4 < 3)
+print(5 > 4 > 3)
 
 #변수
 #애완동물 소개
